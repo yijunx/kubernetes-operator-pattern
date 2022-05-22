@@ -1,0 +1,7 @@
+apiVersion: "yijun.io/v1"
+kind: FunctionService
+metadata:
+  name: fs-v1
+spec:
+  host: some-host
+  port: port

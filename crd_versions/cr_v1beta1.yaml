@@ -1,0 +1,8 @@
+apiVersion: "yijun.io/v1beta1"
+kind: FunctionService
+metadata:
+  name: fs-v1beta1
+spec:
+  image: some-image-url
+  functionName: some-function-name
+  replicas: 1
